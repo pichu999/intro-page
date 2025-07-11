@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+    font-family: "Noto Sans TC", sans-serif;
+    color: #212529;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+h1,h3,h4,h5{
+    line-height: 1.2;
+    font-weight: 700;
+}
+h1{
+    font-size: 40px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+    color: #57a203;
+}
+.banner{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true"
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+.banner-title{
+    color: #ffffff;
+    padding: 151px;
+    text-align: center;
+}
+.content{
+    width: 1076px;
+    padding: 64px 0;
+    margin: 0 auto;
+}
+.quote{
+    border-radius: 16px;
+    background-color: #f5fee7;
+    text-align: center;
+    padding: 32px 0;
+}
+.pb-4{
+    padding-bottom: 4px;
+}
+.pb-12{
+    padding-bottom: 12px;
+}
+.pb-48{
+    padding-bottom: 48px;
+}
+.w-856{
+    width: 856px;
+    margin: 0 auto;
+}
+/*intro*/
+.w-100{
+    width: 100%;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+.bb{
+    border-bottom: 1px solid #dee2e6;
+}
+.pt-24{
+    padding-top: 24px;
+}
+.pb-24{
+    padding-bottom: 24px;
+}
+.pt-16{
+    padding-top: 16px;
+}
+/*history*/
+.his-ol{
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+.his-s{
+    padding-left: 8px;
+    margin-left: 8px;
+    border-left: 1px solid #212529;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+/*concept*/
+.con-li{
+    padding-left: 12px;
+    border-left: 3px solid #DEE2E6;
+}
+/*story*/
+.s-a{
+    padding: 8px 0 12px 0;
+}
+.story-span{
+    padding-bottom: 4px;
+    border-bottom: 1px solid #57a203;
+    margin-left: 8px;
+    font-weight: 500; 
+    line-height: 1.5;
+}
+a{
+    color: #57a203;
+}
+a:hover{
+    color: #477a11;
+}
+.story-span:hover{
+    border-bottom: 1px solid #477a11;
+}
+/*footer*/
+.footer{
+    color:#6c757d;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 64px;
+    font-size: 14px;
+}
